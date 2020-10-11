@@ -1,4 +1,4 @@
-#az login
+#az 
 az group create \
     --location CentralIndia \
     --name Girish-India

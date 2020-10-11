@@ -1,7 +1,7 @@
 #az 
 az group create \
     --location CentralIndia \
-    --name vibhor-India
+    --name addu-India
 
 az network vnet create \
     --name Hub-India \

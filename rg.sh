@@ -89,5 +89,5 @@ az network firewall ip-config create \
     --vnet-name Hub-India 
     
  az vm delete \
-	--resource-group Girish-India \
-	--name spoke-VM
+	--resource-group RG1 \
+	--name vm1

@@ -87,3 +87,7 @@ az network firewall ip-config create \
     --public-ip-address MyFWPIP \
     --resource-group Girish-India \
     --vnet-name Hub-India 
+    
+ az vm delete \
+	--resource-group Girish-India \
+	--name spoke-VM
